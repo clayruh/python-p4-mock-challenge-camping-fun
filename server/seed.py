@@ -22,7 +22,7 @@ def create_activities():
 
 def create_campers():
     campers = []
-    for _ in range(5):
+    for _ in range(10):
         c = Camper(
             name=fake.name(),
             age=rc(range(8, 19))
